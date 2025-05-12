@@ -43,7 +43,7 @@ matrix_small = svd.transform(matrix_big)
 #print(svd.explained_variance_ratio_.sum()) # разобраться потом
 
 
-# Случайный выбор одного из ближайших соседей (РАЗОБРАТЬСЯ)
+# Случайный выбор одного из ближайших соседей
 def softmax(x):
     proba = np.exp(-x)
     return proba / sum(proba)
